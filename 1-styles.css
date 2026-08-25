@@ -55,7 +55,7 @@ h3{
 
 
 .intro-text{
-    margin-top: 5%;
+    margin-top: 200px;
     text-align: center;
 
 
@@ -63,15 +63,43 @@ h3{
 
 .intro-header{
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 30px;
 
     font-size: 200px;
 }
 
-.text-deco-1{
-    align-self: center;
+.text-deco{
+    display: flex;
     justify-content: center;
-    align-items: center;
-    justify-self: center;
-    align-content: center;
-
 }
+
+.down-arrow-1{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    margin-top: 250px;
+    margin-bottom: 40px;
+}
+
+.center-images-1{
+    display: flex;
+    justify-content: center;
+}
+
+.center-images-1 img{
+    margin: 70px;
+    height: 600px;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;   
+}
+
+.resume img{
+    height: 900px;
+}
+
+
