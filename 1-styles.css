@@ -134,7 +134,7 @@ h3{
     padding: 1%;
     
     width: 75%;
-    height: 10%;
+    height: 7%;
     margin: 200px auto;
 }
 
@@ -154,6 +154,10 @@ h3{
     font-size: 0;
 }
 
+.wp1-content-images{
+    height: 550px;
+}
+
 
 .pc-c{
     display: flex;
@@ -168,4 +172,34 @@ h3{
 .download-button{
     color: blue;
     text-decoration: underline;
+}
+
+
+/* -----------------------------        Programme page      ----------------------------------*/
+
+.wp2-center{
+    width: 100%;
+    margin-bottom: 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.wp2-center h2{
+    margin-top: 75px;
+    margin-bottom: 0px;
+
+    font-size: 260%;
+}
+
+.wp2-title-1{
+    height: 20px;
+    margin-bottom: 75px;
+}
+
+.wp2-title-2{
+    height: 550px;
 }
