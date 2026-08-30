@@ -109,14 +109,16 @@ h3{
 }
 
 
-/* Programme page */
+/* -----------------------------        Programme page      ----------------------------------*/
 
 .title-2{
     background-image: url(photos/programme-deco.png);
-    background-size:cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
     
     height: 300px;
-    margin: 200px;
+    margin: 8%;
     
     display: flex;
     flex-direction: column;
@@ -131,9 +133,16 @@ h3{
     background-color: rgb(222, 222,222);
     padding: 1%;
     
-    width: 60%;
-    height: 450px;
-    margin: auto;
+    width: 75%;
+    height: 10%;
+    margin: 200px auto;
+}
+
+
+
+.pc-b{
+    padding: 3%;
+    width: 40%;
 }
 
 .pc-b p{
@@ -145,18 +154,18 @@ h3{
     font-size: 0;
 }
 
-.pc-b{
-    padding: 3%;
-    width: 40%;
-}
-
 
 .pc-c{
     display: flex;
-    
     height: 50px;
     width: 100%;
 }
 
 .pc-c img{
     margin-left: auto;
+}
+
+.download-button{
+    color: blue;
+    text-decoration: underline;
+}
