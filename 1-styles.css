@@ -2,7 +2,9 @@ body{
     margin: 0;
 }
 
-
+.underline{
+    text-decoration: underline;
+}
 
 /* -----------------------------        Home page      ----------------------------------*/
 
@@ -233,7 +235,7 @@ h3{
 }
 
 .wp3-title h1{
-    filter: drop-shadow(0px 10px 8px rgb(30,30,30));
+    filter: drop-shadow(0px 10px 8px rgba(30,30,30,0.6));
 }
 
 .wp3-title2{
