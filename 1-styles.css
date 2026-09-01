@@ -2,18 +2,17 @@ body{
     margin: 0;
 }
 
+
+
 /* -----------------------------        Home page      ----------------------------------*/
 
 
 .nav{
-    background-color: rgb(222,222,222);
     
     position: fixed;
     top:0;
 
     width: 100%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
 
     display: flex;
     flex-direction: column;
@@ -21,8 +20,12 @@ body{
 
 
 .buttons{
+    background-color: rgb(222, 222,222);
+
     width: 100%;
+    padding: 0.5%;
     margin: auto;
+
     text-align: center;
 }
 
@@ -49,7 +52,6 @@ body{
 .nav-blue{
     width: 100%;
     height: 9px;
-    margin-top: 10px;
 
     background-color: rgb(179,197,229);
     font-size: 0;
@@ -194,7 +196,7 @@ h3{
 }
 
 .wp2-center h2{
-    margin-top: 75px;
+    margin-top: 150px;
     margin-bottom: 0px;
 
     font-size: 260%;
@@ -213,21 +215,63 @@ h3{
 /* -----------------------------        Clay page      ----------------------------------*/
 
 
-.wp3-title{
-    text-align: center;
-    
+.wp3-title{    
+    display: flex;
+
     height: 500px;
     width: 100%;
     margin-top: 200px;
 
+    font-size: 200%;
+
+    justify-content: center;
+    align-items: center;
+
     background-image: url(photos/clay-colours.png);
     background-position: center;
     background-repeat: no-repeat;
+}
 
+.wp3-title h1{
+    filter: drop-shadow(0px 10px 8px rgb(30,30,30));
+}
+
+.wp3-title2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    text-align: center;
+}
+
+.wp-img1{
+    display: flex;
+
+    justify-content: center;
+
+    margin: 3%;
+    height: 500px;
+    width: 100%;
+}
+
+.wp-img1 img{
+    margin-left: 4%;
 }
 
 
+/* -----------------------------        About page      ----------------------------------*/
 
+.wp4-main{
+    display: flex;
+    justify-content: center;
 
+    height: 600px;
+    margin-top: 200px;
+}
+
+.wp4-secondary{
+
+    margin-left: 10%;
+    width: 30%;
+}
 
 
