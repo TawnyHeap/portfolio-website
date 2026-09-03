@@ -10,7 +10,11 @@ body {
     text-decoration: underline;
 }
 
-/* -----------------------------        Home page      ----------------------------------*/
+.italic {
+    font-style: italic;
+}
+
+/* -----------------------------        Navigation bar      ----------------------------------*/
 
 
 .nav {
@@ -105,6 +109,21 @@ body {
     margin:0;
 }
 
+/* -----------------------------        Home page      ----------------------------------*/
+
+
+.wp1-grid-container {
+    display: grid;
+    grid-template-areas: 
+        'intro-text'
+        'intro-header'
+        'text-deco'
+        'down-arrow-1'
+        'center-images-1'
+        'resume'
+    ;
+}
+
 h3 {
     font-size: 150%;
     font-weight: normal;
@@ -114,8 +133,6 @@ h3 {
 .intro-text {
     margin-top: 200px;
     text-align: center;
-
-
 }
 
 .intro-header {
@@ -146,18 +163,22 @@ h3 {
 }
 
 .center-images-1 img {
-    margin: 70px;
-    height: 600px;
+    margin: 2vw;
+    height: 30vw;
+    margin-bottom: 1vw;
 }
 
 .resume {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-top: 100px;   
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    width: 100%;
 }
 
 .resume img {
-    height: 9vw;
+    height: 40vw;
 }
 
 .footer {
@@ -326,9 +347,23 @@ h3 {
 }
 
 .wp4-secondary {
-
     margin-left: 10%;
     width: 30%;
 }
 
 
+/* -----------------------------        Responsive CSS      ----------------------------------*/
+
+@media (max-width: 1200px) {
+
+  .resume {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+  }
+
+  .wp2-title-2 {
+    height: 45vw;
+  }
+}
