@@ -39,12 +39,12 @@ body {
 }
 
 .nav-button {
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 3%;
+    margin-right: 3%;
     
 
     font-weight: bold;
-    font-size: 1.3vw;
+    font-size: 160%;
     text-decoration: none;
 
     color: black;    
@@ -58,11 +58,11 @@ body {
 
 
 .nav-button-underline {
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 3%;
+    margin-right: 3%;
 
     font-weight: bold;
-    font-size: 1.3vw;
+    font-size: 160%;
     text-decoration: underline;
 
     color: black;    
@@ -74,7 +74,7 @@ body {
 
 
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 280%;
     text-decoration: none;
 
     color: black;
@@ -90,12 +90,12 @@ body {
     margin-left: 6vw;
     margin-right: 6vw;
 
-
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 280%;;
 
     color: black;
 }
+
 
 .nav-blue {
     width: 100%;
@@ -356,14 +356,72 @@ h3 {
 
 @media (max-width: 1200px) {
 
+
+    .nav-button {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        font-size: 2.4vw;
+    }
+
+    .nav-b-center {
+        font-size: 3.6vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .nav-button-underline {
+        margin-left: 2vw;
+        margin-right: 2vw;
+
+        font-size: 2.4vw;
+    }
+
+    .nav-b-underline {
+        margin-left: 4vw;
+        margin-right: 4vw;
+
+        font-size: 3.6vw;
+    }
+
   .resume {
     display: flex;
     flex-direction: column;
 
     justify-content: center;
+    width: 100%;
+    margin: auto;
   }
 
   .wp2-title-2 {
     height: 45vw;
   }
+
+  .wp1-content-images {
+    height: 40vw;
+  }
+
+  .wp4-main img {
+    height: 50vw;
+  }
+}
+
+@media (max-width: 1295px) {
+
+  .wp1-content-images {
+    height: 40vw;
+  }
+
+  .pc-a {
+    flex-direction: column;
+  }
+
+  .pc-b {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+    .wp4-main {
+        flex-direction: column;
+    }
 }
