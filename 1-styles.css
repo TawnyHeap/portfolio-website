@@ -19,7 +19,7 @@ body {
 
 .nav {
     
-    position: fixed;
+    position: sticky;
     top:0;
 
     width: 100%;
@@ -388,8 +388,14 @@ h3 {
     flex-direction: column;
 
     justify-content: center;
+    align-items: center;
     width: 100%;
     margin: auto;
+
+  }
+
+  .resume img {
+    height: 70vw;
   }
 
   .wp2-title-2 {
@@ -400,9 +406,29 @@ h3 {
     height: 40vw;
   }
 
-  .wp4-main img {
+  .wp4-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 16vw;
+  }
+
+  .wp4-main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .wp4-main-img img {
     height: 50vw;
   }
+
+  .wp4-secondary {
+    width: 60%;
+  }
+
 }
 
 @media (max-width: 1295px) {
