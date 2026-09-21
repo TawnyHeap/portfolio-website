@@ -323,16 +323,18 @@ h3 {
 
 .wp-img1 {
     display: flex;
-
     justify-content: center;
 
-    margin: 3%;
-    height: 500px;
-    width: 100%;
+    margin: 3%; 
 }
 
-.wp-img1 img {
-    margin-left: 4%;
+.wp-img1-img {
+    margin-left: 2%;
+    margin-right: 2%;   
+}
+
+.wp-img1-img img {
+    height: 500px;
 }
 
 
@@ -352,10 +354,37 @@ h3 {
 }
 
 
-/* -----------------------------        Responsive CSS      ----------------------------------*/
+/* -----------------------------        "Responsive" CSS      ----------------------------------*/
+
+@media (max-width: 1885px) {
+
+    .wp3-title {
+        margin-top: 10.5vw;
+    }
+
+    .wp-img1-img img {
+    height: 26.5vw;
+    }
+
+}
+
+@media (max-width: 1295px) {
+
+  .wp1-content-images {
+    height: auto;
+  }
+
+  .pc-a {
+    flex-direction: column;
+  }
+
+  .pc-b {
+    width: 80%;
+  }
+}
+
 
 @media (max-width: 1200px) {
-
 
     .nav-button {
         margin-left: 2vw;
@@ -411,7 +440,7 @@ h3 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 16vw;
+    margin-top: 14vw;
   }
 
   .wp4-main-img {
@@ -431,23 +460,29 @@ h3 {
 
 }
 
-@media (max-width: 1295px) {
-
-  .wp1-content-images {
-    height: 40vw;
-  }
-
-  .pc-a {
-    flex-direction: column;
-  }
-
-  .pc-b {
-    width: 80%;
-  }
-}
-
 @media (max-width: 800px) {
+
     .wp4-main {
         flex-direction: column;
     }
+
+    .wp-img1 {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .wp-img1-img {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .wp-img1-img img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
 }
