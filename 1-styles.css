@@ -188,9 +188,10 @@ h3 {
     background-color: rgb(222, 222,222);
 }
 
-.footer h2{
-    margin-left: 1vw;
-    margin-right: 1vw;
+.footer h3{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    font-size: 20px;
 }
 
 
@@ -209,6 +210,10 @@ h3 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.title-2 h3 {
+    margin: 1vw;
 }
 
 
@@ -379,7 +384,7 @@ h3 {
   }
 
   .pc-b {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -420,6 +425,7 @@ h3 {
     align-items: center;
     width: 100%;
     margin: auto;
+    margin-bottom: 2vw;
 
   }
 
@@ -429,10 +435,6 @@ h3 {
 
   .wp2-title-2 {
     height: 45vw;
-  }
-
-  .wp1-content-images {
-    height: 40vw;
   }
 
   .wp4-main {
@@ -462,6 +464,13 @@ h3 {
 
 @media (max-width: 800px) {
 
+    .intro-text {
+        width: 80%;
+        margin: auto;
+        margin-top: 200px;
+        margin-bottom: 10vw;
+    }
+
     .wp4-main {
         flex-direction: column;
     }
@@ -483,6 +492,8 @@ h3 {
         margin: 0;
         padding: 0;
     }
-    
-    
+
+    .footer h3{
+        font-size: 2.23vw;
+    }
 }
