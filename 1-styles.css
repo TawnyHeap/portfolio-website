@@ -105,7 +105,7 @@ body {
     margin:0;
 }
 
-/* -----------------------------        Home page      ----------------------------------*/
+/* -----------------------------      Home page      ----------------------------------*/
 
 h3 {
     font-size: 150%;
@@ -170,6 +170,8 @@ h3 {
 .footer {
     display: flex;
     background-color: rgb(222, 222,222);
+
+    align-items: center;
 }
 
 .footer h2 {
@@ -186,6 +188,7 @@ h3 {
 
 .footer-left {
     flex: 1;
+    
     text-align: right;
 }
 
@@ -201,6 +204,7 @@ h3 {
 
 .footer-right {
     flex: 1;
+
     text-align: left;
 }
 
